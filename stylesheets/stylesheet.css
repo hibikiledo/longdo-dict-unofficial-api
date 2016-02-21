@@ -98,6 +98,10 @@ header h2 {
   max-width: 100%;
 }
 
+#container .inner ul {
+	margin-left: 40px;
+}
+
 #downloads {
   margin-bottom: 40px;
 }
