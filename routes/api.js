@@ -8,7 +8,7 @@ var client = new Client();
 var parser = new Parser();
 
 // search api endpoint : accepts [query] as string
-router.get('/:query', function(req, res, next) {
+router.get('/search/:query', function(req, res, next) {
 
   client.lookup(req.params.query)
     .then(function(html) {
